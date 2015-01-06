@@ -5,6 +5,7 @@ class CodesController < ApplicationController
   # GET /codes.json
   def index
     @codes = Code.all
+    @no = 1
   end
 
   # GET /codes/1
